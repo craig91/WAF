@@ -1,3 +1,8 @@
+body {
+    background-color: #13232fe6;
+}
+
+
 nav {
     position: fixed;
     top: 0px;
@@ -26,11 +31,9 @@ nav ul li a {
 }
 
 /*An underline appears under each link*/
-nav ul li a:hover, nav ul li a:active {
+
+nav ul li a:hover,
+nav ul li a:active {
     border-bottom: 2px solid #ccc;
     padding-bottom: 8px;
 }
-
-
-
-
